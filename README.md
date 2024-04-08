@@ -20,3 +20,5 @@ This log asserts that a retry option is created and that option is passed into w
 When the activity executes, I would expect that the instance of InvocationContext passed in would be populated, but it is not. You will see in the JSON object printed in the logs that the retryContext is not present and you will see this line in the logs:
 
 Started activity with retryCount: undefined/undefined
+
+You will see that the activity is called three times and then the orchestrator errs out. This proves that the retry options are being honored.
