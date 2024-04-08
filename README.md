@@ -7,7 +7,7 @@ To execute this example, you can do these steps:
 
 - run 'npm install'
 - run 'mkdir azurite'
-- run './node_modules/$bin/azurite --location ./azurite > ./azurite/azurite.log 2>&1 &'
+- run './node_modules/.bin/azurite --location ./azurite --debug ./azurite/debug.log'
 - press F5 to start the project
 - run 'curl http://localhost:7071/api/httpTrigger1'
 
